@@ -1,3 +1,5 @@
 # Python für Ingenieure Workshop
 
-Jupyter Notebooks zum Mitschreiben und Ausprobieren.
+Jupyter Notebooks für den Workshop.
+
+Runterladen über git oder einfach als ZIP.
