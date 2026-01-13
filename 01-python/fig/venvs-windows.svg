@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <style>.box { fill: #f8f9fa; stroke: #333; stroke-width: 1.5; rx: 10; ry: 10; }
+    .system { fill: #e3f2fd; }
+    .venv { fill: #e8f5e9; }
+    .site { fill: #fff3cd; }
+    .path { fill: #ede7f6; }
+    .inner { fill: #ffffff; stroke-dasharray: 4 2; }
+    .title { font: bold 16px Arial, sans-serif; }
+    .text { font: 14px Arial, sans-serif; }
+    .small { font: 12px Arial, sans-serif; }
+    .arrow { stroke: #333; stroke-width: 1.5; marker-end: url(#arrowhead); }</style>
+
+ <!-- PATH -->
+ <!-- System Python 3.11 -->
+ <!-- System Python 3.10 -->
+ <!-- Project A -->
+ <!-- Project B -->
+ <!-- Project C -->
+ <!-- Arrows -->
+ <!-- Footer -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect class="box system" height="186" id="svg_5" transform="matrix(1 0 0 1 0 0)" width="360" x="79" y="160"/>
+  <text class="title" id="svg_6" transform="matrix(1 0 0 1 0 0)" x="100" y="190">System Python 3.11</text>
+  <text class="small" id="svg_7" transform="matrix(1 0 0 1 0 0)" x="100" y="214">C:\...\Python311\python.exe</text>
+  <text class="small" id="svg_8" transform="matrix(1 0 0 1 0 0)" x="100" y="234">C:\...\Python311\Scripts\pip.exe</text>
+  <rect class="box site" height="80" id="svg_9" transform="matrix(1 0 0 1 0 0)" width="342" x="88" y="252"/>
+  <text class="text" id="svg_10" transform="matrix(1 0 0 1 0 0)" x="104" y="281">Lib\site-packages</text>
+  <text class="small" id="svg_11" transform="matrix(1 0 0 1 0 0)" x="104" y="301">(discouraged for installs)</text>
+  <rect class="box system" height="187" id="svg_12" transform="matrix(1 0 0 1 0 0)" width="360" x="520" y="160"/>
+  <text class="title" id="svg_13" x="540" y="190">System Python 3.10</text>
+  <text class="small" id="svg_14" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="540" y="215">C:\...\Python310\python.exe</text>
+  <text class="small" id="svg_15" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="540" y="235">C:\...\Python310\Scripts\pip.exe</text>
+  <rect class="box site" height="80" id="svg_16" transform="matrix(1 0 0 1 0 0)" width="339" x="529" y="251"/>
+  <text class="text" id="svg_17" transform="matrix(1 0 0 1 0 0)" x="536" y="285">Lib\site-packages</text>
+  <text class="small" id="svg_18" transform="matrix(1 0 0 1 0 0)" x="536" y="305">(discouraged for installs)</text>
+  <rect class="box venv" height="360" id="svg_19" transform="matrix(1 0 0 1 0 0)" width="360" x="80" y="420"/>
+  <text class="title" id="svg_20" x="100" y="450">Project A (Python 3.11)</text>
+  <text class="small" id="svg_21" transform="matrix(1 0 0 1 0 0)" x="101" y="475">C:\projects\project-a</text>
+  <rect class="box inner" height="250" id="svg_22" transform="matrix(1 0 0 1 0 0)" width="300" x="110" y="501"/>
+  <text class="title" id="svg_23" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="130" y="530">.venv</text>
+  <text class="small" id="svg_24" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="130" y="555">Scripts\python.exe</text>
+  <text class="small" id="svg_25" x="130" y="575">Scripts\pip.exe</text>
+  <text class="small" id="svg_26" transform="matrix(1 0 0 1 0 0)" x="132" y="627">Lib\site-packages</text>
+  <text class="small" id="svg_27" transform="matrix(1 0 0 1 0 0)" x="152" y="647">requests</text>
+  <text class="small" id="svg_28" transform="matrix(1 0 0 1 0 0)" x="152" y="666">jupyter</text>
+  <rect class="box venv" height="360" id="svg_29" width="360" x="520" y="420"/>
+  <text class="title" id="svg_30" x="540" y="450">Project B (Python 3.10)</text>
+  <text class="small" id="svg_31" x="540" y="475">C:\projects\project-b</text>
+  <rect class="box inner" height="250" id="svg_32" width="300" x="550" y="500"/>
+  <text class="title" id="svg_33" x="570" y="530">.venv</text>
+  <text class="small" id="svg_34" x="570" y="555">Scripts\python.exe</text>
+  <text class="small" id="svg_35" x="570" y="575">Scripts\pip.exe</text>
+  <text class="small" id="svg_36" x="570" y="605">Lib\site-packages</text>
+  <text class="small" id="svg_37" x="590" y="625">project-a</text>
+  <text class="small" id="svg_38" x="590" y="645">psycopg2</text>
+  <rect class="box venv" height="360" id="svg_39" width="360" x="960" y="420"/>
+  <text class="title" id="svg_40" x="980" y="450">Project C (Python 3.10)</text>
+  <text class="small" id="svg_41" x="980" y="475">C:\projects\project-c</text>
+  <rect class="box inner" height="250" id="svg_42" width="300" x="990" y="500"/>
+  <text class="title" id="svg_43" x="1010" y="530">.venv</text>
+  <text class="small" id="svg_44" x="1010" y="555">Scripts\python.exe</text>
+  <text class="small" id="svg_45" x="1010" y="575">Scripts\pip.exe</text>
+  <text class="small" id="svg_46" x="1010" y="605">Lib\site-packages</text>
+  <text class="small" id="svg_47" x="1030" y="625">fastapi</text>
+  <text class="small" id="svg_48" x="1030" y="645">uvicorn</text>
+  <line class="arrow" id="svg_49" x1="260" x2="260" y1="353" y2="408"/>
+  <line class="arrow" id="svg_50" x1="700" x2="700" y1="360" y2="412"/>
+  <line class="arrow" id="svg_51" x1="712" x2="1107" y1="361" y2="410"/>
+  <text class="small" id="svg_53" transform="matrix(1 0 0 1 0 0)" x="131.79" y="593.6">Scripts\jupyter.exe</text>
+ </g>
+</svg>

@@ -7,14 +7,12 @@ Jupyter Notebooks für den Workshop.
 Runterladen über git oder einfach als ZIP.
 
 
-Genutzte Pakete:
+Genutzte Pakete u.a.:
 
-jupyter
-pandas
-openpyxl
-scipy
-matplotlib
-seaborn
-plotly
-streamlit
+- jupyter
+- pandas
+- openpyxl
+- plotly
+- streamlit
+- requests
 
