@@ -1,0 +1,75 @@
+{
+  "exported_at": "2025-01-30T14:25:17Z",
+  "measurements": [
+    {
+      "measurementId": 1236,
+      "current_A": 15.6,
+      "voltage_V": 230.1,
+      "validated": true,
+      "timestamp": "2025-01-30T14:15:03Z"
+    },
+    {
+      "measurementId": 1237,
+      "current_A": 15.4,
+      "voltage_V": 229.8,
+      "validated": true,
+      "timestamp": "2025-01-30T14:16:11Z"
+    },
+    {
+      "measurementId": 1238,
+      "current_A": null,
+      "voltage_V": 230.0,
+      "validated": false,
+      "timestamp": "2025-01-30T14:17:02Z"
+    },
+    {
+      "measurementId": 1239,
+      "current_A": 15.7,
+      "voltage_V": 231.2,
+      "validated": true,
+      "timestamp": "2025-01-30T14:18:47Z"
+    },
+    {
+      "measurementId": 1240,
+      "current_A": 15.5,
+      "voltage_V": null,
+      "validated": false,
+      "timestamp": "2025-01-30T14:19:19Z"
+    },
+    {
+      "measurementId": 1241,
+      "current_A": 15.9,
+      "voltage_V": 230.6,
+      "validated": true,
+      "timestamp": "2025-01-30T14:20:54Z"
+    },
+    {
+      "measurementId": 1242,
+      "current_A": null,
+      "voltage_V": null,
+      "validated": false,
+      "timestamp": "2025-01-30T14:21:08Z"
+    },
+    {
+      "measurementId": 1243,
+      "current_A": 16.1,
+      "voltage_V": 229.5,
+      "validated": true,
+      "timestamp": "2025-01-30T14:22:36Z"
+    },
+    {
+      "measurementId": 1244,
+      "current_A": 15.8,
+      "voltage_V": 230.3,
+      "validated": true,
+      "timestamp": "2025-01-30T14:23:41Z"
+    },
+    {
+      "measurementId": 1245,
+      "current_A": 15.6,
+      "voltage_V": 230.0,
+      "validated": true,
+      "timestamp": "2025-01-30T14:24:58Z"
+    }
+  ]
+}
