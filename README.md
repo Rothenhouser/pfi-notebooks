@@ -15,4 +15,5 @@ Genutzte Pakete u.a.:
 - plotly
 - streamlit
 - requests
+- pydantic
 
